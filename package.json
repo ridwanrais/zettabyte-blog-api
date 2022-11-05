@@ -1,0 +1,25 @@
+{
+  "name": "blog-express-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "joi": "^17.7.0",
+    "mongoose": "^6.7.1",
+    "mongoose-aggregate-paginate-v2": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_ENV=production node ./src/drivers/graphql/index.js",
+    "dev": "nodemon ./src/drivers/graphql/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
